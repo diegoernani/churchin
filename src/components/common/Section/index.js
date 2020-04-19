@@ -34,7 +34,7 @@ const Section = props => {
 	} = props
 	return (
 		<SectionContainer
-			backgroundColor={hero ? '#c8e9d2' : '#ffffff'}
+			backgroundColor={hero ? '#4b0082' : '#fffafa'}
 			className={`${styles.sectionWrapper} ${hero ? styles.heroWrapper : ''}`}
 			style={{
 				...inlineStyle,

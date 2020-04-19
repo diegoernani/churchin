@@ -6,7 +6,9 @@ import TopHeader from '../../components/TopHeader'
 import Footer from '../../components/Footer'
 import Section from '../../components/common/Section'
 import HeaderH1 from '../../components/common/HeaderH1'
+import HeaderH1Inverso from '../../components/common/HeaderH1Inverso'
 import Paragraph from '../../components/common/Paragraph'
+import ParagraphInverso from '../../components/common/ParagraphInverso'
 import styles from './Home.module.scss'
 import Testimonials from '../../components/Testimonials/testimonials'
 import Phone from '../../components/common/phone'
@@ -51,9 +53,8 @@ const Homepage = () => {
 								leftLg={3}
 								rightLg={7}
 							>
-								<HeaderH2 className={styles.subHeader} key="header-top" text="lorem" />
-								<HeaderH1 key="sub-header-top" text="helloo" />
-								<Paragraph key="p-top" text="Exercitation pariatur fugiat incididunt esse consequat officia ut dolore. Voluptate ad nisi et fugiat reprehenderit cupidatat ipsum commodo proident veniam veniam ipsum magna et. Amet ipsum adipisicing adipisicing nostrud id culpa velit. Velit aliqua voluptate cillum ea nulla cillum eu exercitation laborum velit cupidatat mollit." />
+								<HeaderH1Inverso key="sub-header-top" text="Churchin" />
+								<ParagraphInverso key="p-top" text="Exercitation pariatur fugiat incididunt esse consequat officia ut dolore. Voluptate ad nisi et fugiat reprehenderit cupidatat ipsum commodo proident veniam veniam ipsum magna et. Amet ipsum adipisicing adipisicing nostrud id culpa velit. Velit aliqua voluptate cillum ea nulla cillum eu exercitation laborum velit cupidatat mollit." />
 								<Button
 									text="Read more ⟶"
 									onClick={() => null}

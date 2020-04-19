@@ -1,8 +1,13 @@
 /* COLORS  */
-$main-green: #444999;//#5abd79;
-$light-green: #ffffff;//#c8e9d2;
-$main-dark: #44465f;
-$gray-1: #727590;
+$main-green: #4b0082;//#5abd79;
+$main-inverso: #fffafa; //quando usar fundo roxo
+
+$light-green: #fffafa; //fundo cabecalho 
+
+$main-dark: #4b0082; 
+$main-inverso-dark: #fffafa; //texto sobre fundo roxo
+
+$gray-1:#78866b; //sub titulo
 
 /* BREAKPOINTS */
 $screen-sm-min: 576px;

@@ -1,0 +1,6 @@
+@import '../../../styles/mixins/HeaderMixins';
+@import '../../../styles/variables';
+
+.mainH1Inverso {
+    @include HeaderH1Inverso($main-inverso);
+}
